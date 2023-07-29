@@ -1,0 +1,16 @@
+@font-face {
+  font-family: roboto;
+  src: url("./fonts/roboto.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+body {
+  font-family:roboto;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+}
