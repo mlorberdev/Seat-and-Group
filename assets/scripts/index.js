@@ -2,10 +2,14 @@
   // VARS
 
   // LISTENERS
-  document.querySelectorAll(".listen").forEach(b => routeFn);
+  document.querySelectorAll("button").forEach(btn => btn.addEventListener("click", btnClick));
 
   // HELPERS
-  function routeFn() {
-    console.log(this.id);
+  function btnClick() {
+    switch (this.id) {
+      case "btn_g": ; break;
+      case "btn_s": ; break;
+      default: break;
+    }
   }
 })();
