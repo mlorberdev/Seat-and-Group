@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seating</title>
-  <link rel="stylesheet" href="./assets/style/style.css"/>
-  <link rel="icon" href="./favicon.webp"/>
+  <link rel="stylesheet" href="./assets/style/style.css" />
+  <link rel="icon" href="./favicon.webp" />
 </head>
+
 <body>
-  <main id="main">
-    <article id="btn_grp_init">
+  <header></header>
+  <article id="btn_grp_init">
+    <section id="select_class">
+      <div><div>1</div><input type="radio" name="class" checked /></div>
+      <div><div>2</div><input type="radio" name="class" /></div>
+      <div><div>3</div><input type="radio" name="class" /></div>
+      <div><div>4</div><input type="radio" name="class" /></div>
+      <div><div>5</div><input type="radio" name="class" /></div>
+      <div><div>6</div><input type="radio" name="class" /></div>
+      <div><div>7</div><input type="radio" name="class" /></div>
+      <div><div>8</div><input type="radio" name="class" /></div>
+    </section>
+    <section>
       <button id="btn_s">SEATS</button>
       <button id="btn_g">GROUPS</button>
-    </article>
-    <article id="seats">
-      <section id="seating_area"></section>
-    </article>
-    <article id="groups"></article>
-  </main>
-  
+    </section>
+  </article>
+  <article id="seats"></article>
+  <article id="groups"></article>
+  <footer>
+    <button id="btn_b">BACK</button>
+  </footer>
   <script defer src="./assets/scripts/index.js"></script>
   <script defer src="./assets/scripts/routes.js"></script>
 </body>
+
 </html>
