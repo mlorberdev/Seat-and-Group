@@ -33,11 +33,12 @@ header {
 
 footer {
   visibility:hidden;
-  bottom: 1.25rem;
+  top: 0;
+  left:0;
 }
 
 button {
-  padding: 1rem 1.5rem;
+  padding: .5rem 1rem;
   font-size: .7rem;
   width: 8rem;
   margin: 1rem;
@@ -61,12 +62,12 @@ button {
   top: 3rem;
   left: 0;
   width: 100vw;
-  height: 85vh;
+  height: 80vh;
   padding: 2rem;
 }
 
 #groups {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
 
